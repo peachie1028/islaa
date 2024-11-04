@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #b22222; /* Christmas red background */
+    color: white; /* White text */
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+.end{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 10px;
+}
+.title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.body-text {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: #b22222;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Decorative Christmas elements */
+body::before {
+    content: "🎅🎄❄️";
+    font-size: 4rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+body::after {
+    content: "🎁🎄❄️";
+    font-size: 4rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
